@@ -20,9 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="108c83f5-3416-4aaa-9331-f3ac704bbb4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/StraviaTEC/proxy.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StraviaTEC/proxy.conf.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StraviaTEC/src/app/UserModel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StraviaTEC/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StraviaTEC/src/ApiCoreService.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StraviaTEC/src/app/loginview/login.service.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StraviaTEC/src/app/loginview/loginview.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StraviaTEC/src/app/loginview/loginview.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StraviaTEC/src/app/loginview/loginview.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StraviaTEC/src/app/loginview/loginview.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StraviaTEC/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTEC/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StraviaTEC/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTEC/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StraviaTEC/proxy.conf.json" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTEC/proxy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StraviaTEC/src/app/UserModel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTEC/src/app/Models/UserModel.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StraviaTEC/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTEC/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StraviaTEC/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTEC/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StraviaTEC/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTEC/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StraviaTEC/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTEC/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StraviaTEC/src/app/app.service.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTEC/src/app/app.service.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StraviaTEC/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTEC/src/main.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,11 +58,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kO275HIZnGjPzlyIMJFw8JTUVi" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -54,9 +75,13 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\Documents\StraviaTEC" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Usuario\Documents\StraviaTEC\StraviaTEC" />
       <recent name="C:\Users\Usuario\Documents\StraviaTEC\StraviaTEC\src" />
+      <recent name="C:\Users\Usuario\Documents\StraviaTEC\StraviaTEC\src\app\Models" />
+      <recent name="C:\Users\Usuario\Documents\StraviaTEC\StraviaTEC" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -68,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605557146911</updated>
       <workItem from="1605557147985" duration="2930000" />
-      <workItem from="1605560136032" duration="6870000" />
+      <workItem from="1605560136032" duration="30432000" />
     </task>
     <servers />
   </component>
@@ -86,5 +111,18 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1605626402341">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605626402340" />
+    <state x="400" y="135" key="refactoring.ChangeSignatureDialog" timestamp="1605629053450">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="400" y="135" key="refactoring.ChangeSignatureDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605629053450" />
   </component>
 </project>
