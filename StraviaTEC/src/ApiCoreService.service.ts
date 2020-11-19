@@ -3,6 +3,7 @@ import {HttpClient,HttpHeaders} from "@angular/common/http";
 import {Observable} from "rxjs";
 import {User} from "./app/Models/UserModel";
 
+
 @Injectable({
   providedIn: 'root'
 })
@@ -22,6 +23,14 @@ public lista = [];
     return this.http.get<User>('/api/usuario');
 
   }
+
+  getUsersbyID(id : number): Observable<User>{
+
+
+    return this.http.get<User>('/api/usuario/find/'+id);
+
+  }
+
 
 
 

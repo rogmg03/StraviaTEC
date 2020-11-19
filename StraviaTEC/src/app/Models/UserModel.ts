@@ -1,4 +1,3 @@
-import DateTimeFormat = Intl.DateTimeFormat;
 
 export interface User{
   usuarioId: number ;
@@ -10,6 +9,7 @@ export interface User{
    cuentaBancaria: string,
    edad: number,
    usuario: string,
-   pass: string,
+  contrasena: string,
    rol: string
+
 }

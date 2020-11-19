@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Documents\\StraviatecCore\\StraviaTECCore\\StraviaTECCore.csproj": {}
+    "C:\\Users\\Usuario\\Documents\\StraviaTECCore\\StraviaTECCore\\StraviaTECCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Documents\\StraviatecCore\\StraviaTECCore\\StraviaTECCore.csproj": {
+    "C:\\Users\\Usuario\\Documents\\StraviaTECCore\\StraviaTECCore\\StraviaTECCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Documents\\StraviatecCore\\StraviaTECCore\\StraviaTECCore.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Documents\\StraviaTECCore\\StraviaTECCore\\StraviaTECCore.csproj",
         "projectName": "StraviaTECCore",
-        "projectPath": "C:\\Users\\Usuario\\Documents\\StraviatecCore\\StraviaTECCore\\StraviaTECCore.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Documents\\StraviaTECCore\\StraviaTECCore\\StraviaTECCore.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Documents\\StraviatecCore\\StraviaTECCore\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Documents\\StraviaTECCore\\StraviaTECCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

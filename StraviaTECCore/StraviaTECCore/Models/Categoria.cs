@@ -11,7 +11,7 @@ namespace StraviaTECCore.Models
             Gestionretos = new HashSet<Gestionretos>();
         }
 
-        public decimal CategoriaId { get; set; }
+        public int CategoriaId { get; set; }
         public string Tipo { get; set; }
 
         public ICollection<GestionCarreras> GestionCarreras { get; set; }

@@ -1,1 +1,52 @@
-<p>loginview works!</p>
+obtener
+
+
+
+
+
+
+
+
+
+
+
+<h1>{{error}}</h1>
+Ingresar
+
+<div >
+  <div> Usuario<input type="number" [(ngModel)]="usuariostring" (change)="getUsersbyID()"></div>
+  <div> Contraseña<input type="password" [(ngModel)]="pass" ></div>
+  <button (click)="validateLogin()" >Login</button>
+
+</div>
+
+
+
+
+
+REGISTRAR
+<div>
+  <div> cedula<input type="number" [(ngModel)]="usuario.usuarioId"></div>
+  <div> nombre<input type="text" [(ngModel)]="usuario.nombre"></div>
+  <div> apellido1<input type="text" [(ngModel)]="usuario.apellido1"></div>
+  <div>apellido2<input type="text" [(ngModel)]="usuario.apellido2"></div>
+  <div> nacionalidad<input type="text" [(ngModel)]="usuario.nacionalidad"></div>
+  <div>fecha nacimiento<input type="date" [(ngModel)]="usuario.fechaNacimiento"></div>
+  <div>cuenta bancaria<input type="text" [(ngModel)]="usuario.cuentaBancaria"></div>
+  <div>edad<input type="number" [(ngModel)]="usuario.edad"></div>
+  <div>usuario<input type="text" [(ngModel)]="usuario.usuario"></div>
+  <div>contraseña<input type="password" [(ngModel)]="pass"></div>
+  <div> rol<input type="text" [(ngModel)]="usuario.rol"></div>
+
+
+  <button (click)="getUsers()">obtener</button>
+
+  <button (click)="adduser(usuario)">insertar</button>
+
+  <button (click)="edituser(usuario)">editar</button>
+
+
+</div>
+
+
+

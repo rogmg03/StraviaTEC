@@ -16,6 +16,7 @@ import { ContactenosComponent } from './contactenos/contactenos.component';
 import { GruposComponent } from './grupos/grupos.component';
 import { IncripcionesComponent } from './incripciones/incripciones.component';
 import { ReportesComponent } from './reportes/reportes.component';
+import {ImageUploadModule} from 'angular2-image-upload'
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import { ReportesComponent } from './reportes/reportes.component';
     HttpClientModule,
     FormsModule,
     RouterModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ImageUploadModule.forRoot()
 
   ],
   providers: [],
