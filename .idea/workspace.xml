@@ -79,6 +79,7 @@
       <list>
         <option value="TypeScript File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -98,8 +99,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\Users\Usuario\Documents\StraviaTEC\StraviaTEC\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Users\roger\Desktop\Work\Bases2\StraviaTEC\StraviaTEC\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -123,6 +125,7 @@
       <updated>1605557146911</updated>
       <workItem from="1605557147985" duration="2930000" />
       <workItem from="1605560136032" duration="43570000" />
+      <workItem from="1605769570200" duration="2120000" />
     </task>
     <servers />
   </component>
@@ -149,6 +152,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605626402340" />
+    <state width="1515" height="223" key="GridCell.Tab.0.bottom" timestamp="1605759989583">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1605759989583" />
+    <state width="1515" height="223" key="GridCell.Tab.0.center" timestamp="1605759989583">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1605759989583" />
+    <state width="1515" height="223" key="GridCell.Tab.0.left" timestamp="1605759989582">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1605759989582" />
+    <state width="1515" height="223" key="GridCell.Tab.0.right" timestamp="1605759989583">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1605759989583" />
     <state x="400" y="135" key="refactoring.ChangeSignatureDialog" timestamp="1605629053450">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

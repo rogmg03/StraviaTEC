@@ -1,52 +1,129 @@
-obtener
-
-
-
-
-
-
-
-
-
-
-
-<h1>{{error}}</h1>
-Ingresar
-
-<div >
-  <div> Usuario<input type="number" [(ngModel)]="usuariostring" (change)="getUsersbyID()"></div>
-  <div> Contraseña<input type="password" [(ngModel)]="pass" ></div>
-  <button (click)="validateLogin()" >Login</button>
-
+<section id="login" style="height: 110vh">
+<div class="login-wrap">
+  <div class="login-html">
+    <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Iniciar sesión</label>
+    <input id="tab-2" type="radio" name="tab" class="for-pwd"><label for="tab-2" class="tab">Registrar</label>
+    <div class="login-form">
+      <h1>{{error}}</h1>
+      <div class="sign-in-htm">
+        <div class="group">
+          <label for="user" class="label">Usuario</label>
+          <input id="user" type="number" [(ngModel)]="usuariostring" (change)="getUsersbyID()" class="input">
+        </div>
+        <div class="group">
+          <label for="pass" class="label">Contraseña</label>
+          <input id="pass" type="password" [(ngModel)]="pass"  class="input" data-type="password">
+        </div>
+        <div class="group">
+          <input type="submit" (click)="validateLogin()" class="button" value="Iniciar">
+        </div>
+        <div class="hr"></div>
+      </div>
+      <div class="for-pwd-htm">
+        <div class="group">
+          <label for="ced" class="label">Cedula</label>
+          <input id="ced" type="text" [(ngModel)]="usuario.usuarioId" class="input">
+        </div>
+        <div class="group">
+          <label for="name" class="label">Nombre</label>
+          <input id="name" type="text" [(ngModel)]="usuario.nombre" class="input">
+        </div>
+        <div class="group">
+          <label for="lastname1" class="label">Primer Apellido</label>
+          <input id="lastname1" type="text" [(ngModel)]="usuario.apellido1" class="input">
+        </div>
+        <div class="group">
+          <label for="lastname2" class="label">Segundo Apellido</label>
+          <input id="lastname2" type="text" [(ngModel)]="usuario.apellido2" class="input">
+        </div>
+        <div class="group">
+          <label for="country" class="label">Nacionalidad</label>
+          <input id="country" type="text" [(ngModel)]="usuario.nacionalidad" class="input">
+        </div>
+        <div class="group">
+          <label for="birthdate" class="label">Fecha de nacimiento</label>
+          <input id="birthdate" type="date" [(ngModel)]="usuario.fechaNacimiento" class="input">
+        </div>
+        <div class="group">
+          <label for="bank_account" class="label">Cuenta bancaria</label>
+          <input id="bank_account" type="text" [(ngModel)]="usuario.cuentaBancaria" class="input">
+        </div>
+        <div class="group">
+          <label for="age" class="label">Edad</label>
+          <input id="age" type="number" [(ngModel)]="usuario.edad" class="input">
+        </div>
+        <div class="group">
+          <label for="user_register" class="label">Usuario</label>
+          <input id="user_register" type="text" [(ngModel)]="usuario.usuario" class="input">
+        </div>
+        <div class="group">
+          <label for="password" class="label">Contraseña</label>
+          <input id="password" type="password" [(ngModel)]="pass" class="input">
+        </div>
+        <div class="group">
+          <label for="rol" class="label">Rol</label>
+          <input id="rol" type="text" [(ngModel)]="usuario.rol" class="input">
+        </div>
+        <div class="group">
+          <input type="submit" class="button" (click)="getUsers()" value="Obtener">
+          <input style="margin-top: 5px" type="submit" (click)="adduser(usuario)" class="button" value="Insertar">
+          <input style="margin-top: 5px" type="submit" (click)="edituser(usuario)" class="button" value="Editar">
+        </div>
+        <div class="hr"></div>
+      </div>
+    </div>
+  </div>
 </div>
+<!--obtener-->
 
 
 
 
 
-REGISTRAR
-<div>
-  <div> cedula<input type="number" [(ngModel)]="usuario.usuarioId"></div>
-  <div> nombre<input type="text" [(ngModel)]="usuario.nombre"></div>
-  <div> apellido1<input type="text" [(ngModel)]="usuario.apellido1"></div>
-  <div>apellido2<input type="text" [(ngModel)]="usuario.apellido2"></div>
-  <div> nacionalidad<input type="text" [(ngModel)]="usuario.nacionalidad"></div>
-  <div>fecha nacimiento<input type="date" [(ngModel)]="usuario.fechaNacimiento"></div>
-  <div>cuenta bancaria<input type="text" [(ngModel)]="usuario.cuentaBancaria"></div>
-  <div>edad<input type="number" [(ngModel)]="usuario.edad"></div>
-  <div>usuario<input type="text" [(ngModel)]="usuario.usuario"></div>
-  <div>contraseña<input type="password" [(ngModel)]="pass"></div>
-  <div> rol<input type="text" [(ngModel)]="usuario.rol"></div>
 
 
-  <button (click)="getUsers()">obtener</button>
-
-  <button (click)="adduser(usuario)">insertar</button>
-
-  <button (click)="edituser(usuario)">editar</button>
 
 
-</div>
+
+
+<!--<h1>{{error}}</h1>-->
+<!--Ingresar-->
+
+<!--<div >-->
+<!--  <div> Usuario<input type="number" [(ngModel)]="usuariostring" (change)="getUsersbyID()"></div>-->
+<!--  <div> Contraseña<input type="password" [(ngModel)]="pass" ></div>-->
+<!--  <button (click)="validateLogin()" >Login</button>-->
+
+<!--</div>-->
+
+
+
+
+
+<!--REGISTRAR-->
+<!--<div>-->
+<!--  <div> cedula<input type="number" [(ngModel)]="usuario.usuarioId"></div>-->
+<!--  <div> nombre<input type="text" [(ngModel)]="usuario.nombre"></div>-->
+<!--  <div> apellido1<input type="text" [(ngModel)]="usuario.apellido1"></div>-->
+<!--  <div>apellido2<input type="text" [(ngModel)]="usuario.apellido2"></div>-->
+<!--  <div> nacionalidad<input type="text" [(ngModel)]="usuario.nacionalidad"></div>-->
+<!--  <div>fecha nacimiento<input type="date" [(ngModel)]="usuario.fechaNacimiento"></div>-->
+<!--  <div>cuenta bancaria<input type="text" [(ngModel)]="usuario.cuentaBancaria"></div>-->
+<!--  <div>edad<input type="number" [(ngModel)]="usuario.edad"></div>-->
+<!--  <div>usuario<input type="text" [(ngModel)]="usuario.usuario"></div>-->
+<!--  <div>contraseña<input type="password" [(ngModel)]="pass"></div>-->
+<!--  <div> rol<input type="text" [(ngModel)]="usuario.rol"></div>-->
+
+
+<!--  <button (click)="getUsers()">obtener</button>-->
+
+<!--  <button (click)="adduser(usuario)">insertar</button>-->
+
+<!--  <button (click)="edituser(usuario)">editar</button>-->
+
+
+<!--</div>-->
+</section>
 
 
 
