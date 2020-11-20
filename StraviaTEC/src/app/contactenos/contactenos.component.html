@@ -1,1 +1,8 @@
-<p>contactenos works!</p>
+id<div><input type="number" [(ngModel)]="contact.id"></div>
+nombre<div><input type="text" [(ngModel)]="contact.nombre"></div>
+apellidos<div><input type="text" [(ngModel)]="contact.apellidos"></div>
+email<div><input type="text" [(ngModel)]="contact.email"></div>
+telefono<div><input type="text" [(ngModel)]="contact.telefono"></div>
+razon<div><input type="text" [(ngModel)]="contact.razon"></div>
+
+<div><button (click)="addcontact(contact)">Enviar</button></div>

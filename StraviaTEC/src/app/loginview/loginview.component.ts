@@ -15,6 +15,7 @@ export class AppComponentlogin {
   public listausuario: User;
   public usuariostring : number;
   public pass : string;
+  public edad : number;
 
   public usuario: User = new class implements User {
     apellido1: string;
@@ -146,4 +147,19 @@ export class AppComponentlogin {
     );
 
   }
+
+  updateage(){
+
+
+      const convertAge = new Date(this.usuario.fechaNacimiento);
+     this.edad = Math.abs(Date.now() - convertAge.getTime());
+    this.usuario.edad = Math.floor((this.edad / (1000 * 3600 * 24))/365);
+     console.log(this.usuario.edad + ' edad');
+     console.log(Math.abs(Date.now() - convertAge.getTime()));
+
+
+
+
+  }
+
 }
