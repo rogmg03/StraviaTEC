@@ -20,54 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="108c83f5-3416-4aaa-9331-f3ac704bbb4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/StraviaTECCore/.vs/ProjectSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StraviaTECCore/.vs/VSWorkspaceState.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StraviaTECCore/.vs/slnx.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/Models/Actividad.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/Models/Amigos.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/Models/Contactenos.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/Models/GestionGrupos.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/Models/Patrocinadores.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/Models/StraviaContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/obj/Release/netcoreapp2.1/.NETCoreApp,Version=v2.1.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/obj/Release/netcoreapp2.1/StraviaTECCore.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/obj/Release/netcoreapp2.1/StraviaTECCore.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/obj/Release/netcoreapp2.1/StraviaTECCore.RazorAssemblyInfo.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/obj/Release/netcoreapp2.1/StraviaTECCore.RazorAssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/obj/Release/netcoreapp2.1/StraviaTECCore.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StraviaTEC/src/app/Models/contactenosModel.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StraviaTEC/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTEC/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StraviaTEC/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTEC/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StraviaTEC/src/ApiCoreService.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTEC/src/ApiCoreService.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StraviaTEC/src/app/Models/UserModel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTEC/src/app/Models/UserModel.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StraviaTEC/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTEC/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StraviaTEC/src/app/contactenos/contactenos.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTEC/src/app/contactenos/contactenos.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StraviaTEC/src/app/contactenos/contactenos.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTEC/src/app/contactenos/contactenos.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StraviaTEC/src/app/loginview/loginview.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTEC/src/app/loginview/loginview.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StraviaTEC/src/app/loginview/loginview.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTEC/src/app/loginview/loginview.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StraviaTECCore/.vs/StraviaTECCore/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTECCore/.vs/StraviaTECCore/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StraviaTECCore/.vs/StraviaTECCore/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTECCore/.vs/StraviaTECCore/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/Controllers/UsuarioController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/Controllers/UsuarioController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/Models/Categoria.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/Models/Categoria.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/Models/GestionCarreras.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/Models/GestionCarreras.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/Models/Gestionactividad.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/Models/Gestionactividad.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/Models/Gestionretos.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/Models/Gestionretos.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/Models/Straviatec_DBContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/Models/Straviatec_DBContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/Models/Usuarios.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/Models/Usuarios.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/bin/Debug/netcoreapp2.1/StraviaTECCore.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/bin/Debug/netcoreapp2.1/StraviaTECCore.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/bin/Debug/netcoreapp2.1/StraviaTECCore.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/bin/Debug/netcoreapp2.1/StraviaTECCore.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/bin/Debug/netcoreapp2.1/StraviaTECCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/bin/Debug/netcoreapp2.1/StraviaTECCore.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/bin/Debug/netcoreapp2.1/StraviaTECCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/bin/Debug/netcoreapp2.1/StraviaTECCore.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/obj/Debug/netcoreapp2.1/StraviaTECCore.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/obj/Debug/netcoreapp2.1/StraviaTECCore.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/obj/Debug/netcoreapp2.1/StraviaTECCore.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/obj/Debug/netcoreapp2.1/StraviaTECCore.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/obj/Debug/netcoreapp2.1/StraviaTECCore.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/obj/Debug/netcoreapp2.1/StraviaTECCore.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/obj/Debug/netcoreapp2.1/StraviaTECCore.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/obj/Debug/netcoreapp2.1/StraviaTECCore.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/obj/Debug/netcoreapp2.1/StraviaTECCore.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/obj/Debug/netcoreapp2.1/StraviaTECCore.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/obj/Debug/netcoreapp2.1/StraviaTECCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/obj/Debug/netcoreapp2.1/StraviaTECCore.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/obj/Debug/netcoreapp2.1/StraviaTECCore.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/obj/Debug/netcoreapp2.1/StraviaTECCore.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/obj/Debug/netcoreapp2.1/StraviaTECCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/obj/Debug/netcoreapp2.1/StraviaTECCore.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/obj/StraviaTECCore.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/obj/StraviaTECCore.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTECCore/StraviaTECCore/obj/project.nuget.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,9 +36,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -101,7 +60,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\Users\roger\Desktop\Work\Bases2\StraviaTEC\StraviaTEC\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Users\Usuario\Documents\StraviaTEC\StraviaTEC\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -126,6 +85,7 @@
       <workItem from="1605557147985" duration="2930000" />
       <workItem from="1605560136032" duration="43570000" />
       <workItem from="1605769570200" duration="2120000" />
+      <workItem from="1605796401261" duration="3882000" />
     </task>
     <servers />
   </component>
@@ -172,6 +132,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="400" y="135" key="refactoring.ChangeSignatureDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605629053450" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1605835291189">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605835291189" />
     <state x="444" y="47" width="672" height="678" key="search.everywhere.popup" timestamp="1605743093791">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

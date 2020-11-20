@@ -2,6 +2,7 @@ import {Injectable, Type} from '@angular/core';
 import {HttpClient,HttpHeaders} from "@angular/common/http";
 import {Observable} from "rxjs";
 import {User} from "./app/Models/UserModel";
+import {contactenos} from "./app/Models/contactenosModel";
 
 
 @Injectable({
@@ -59,4 +60,23 @@ public lista = [];
     // @ts-ignore
     return this.http.delete<User>('/api/usuario'+'/'+id);
   }
+
+
+
+  addcontact(cont:contactenos): Observable<contactenos>{
+    console.log('usuarios'+cont);
+    // @ts-ignore
+    try {
+
+
+      return this.http.post<contactenos>('/api/contactenos',cont);}
+    catch (e){
+
+      console.log(e);
+    }
+  }
+
 }
+
+
+
