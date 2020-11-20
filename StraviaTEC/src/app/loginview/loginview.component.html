@@ -10,7 +10,11 @@
           <label for="user" class="label">Usuario</label>
           <input id="user" type="number" [(ngModel)]="usuariostring" (change)="getUsersbyID()" class="input">
         </div>
+
+        <div class="group">
+          <label for="pass" class="label">Contraseña</label>
         <input id="pass" type="password" [(ngModel)]="pass"  class="input" data-type="password">
+        </div>
         <div class="group">
           <input type="submit" (click)="validateLogin()" class="button" value="Iniciar">
         </div>
@@ -45,7 +49,7 @@
           <label for="bank_account" class="label">Cuenta bancaria</label>
           <input id="bank_account" type="text" [(ngModel)]="usuario.cuentaBancaria" class="input">
         </div>
-        <div class="group">
+        <div class="group" style="display: none">
           <label for="age" class="label">Edad</label>
           <input id="age" type="number" [(ngModel)]="usuario.edad" class="input">
         </div>
