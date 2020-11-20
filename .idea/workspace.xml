@@ -60,7 +60,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\Users\Usuario\Documents\StraviaTEC\StraviaTEC\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Users\roger\Desktop\Work\Bases2\StraviaTEC\StraviaTEC\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -86,6 +86,9 @@
       <workItem from="1605560136032" duration="43570000" />
       <workItem from="1605769570200" duration="2120000" />
       <workItem from="1605796401261" duration="3882000" />
+      <workItem from="1605871956859" duration="2830000" />
+      <workItem from="1605853208443" duration="441000" />
+      <workItem from="1605853826742" duration="7589000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,30 @@
+.golge{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.isteColor{
+  color: #cd2147;
+}
+.isteColor:hover{
+  color: #353A40;
+}
+.img-deneyim {
+  object-fit: cover;
+  border-radius:50%;
+  width: 90px;
+  height: 90px;
+  border-style: solid;
+}
+.img-arkadas {
+  object-fit: cover;
+  border-radius:50%;
+  width: 40px;
+  height: 40px;
+  border-style: solid;
+}
+
+@media (max-width: 900px) {
+  #searchFriends {
+    width: 60%;
+  }
+}

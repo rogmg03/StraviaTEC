@@ -15,6 +15,7 @@ import { ContactenosComponent } from './contactenos/contactenos.component';
 import { GruposComponent } from './grupos/grupos.component';
 import { IncripcionesComponent } from './incripciones/incripciones.component';
 import { ReportesComponent } from './reportes/reportes.component';
+import { AmigosComponent } from './amigos/amigos.component';
 // import {ImageUploadModule} from 'angular2-image-upload'
 
 
@@ -29,7 +30,8 @@ import { ReportesComponent } from './reportes/reportes.component';
     ContactenosComponent,
     GruposComponent,
     IncripcionesComponent,
-    ReportesComponent
+    ReportesComponent,
+    AmigosComponent
 
   ],
   imports: [
