@@ -1,0 +1,15 @@
+@media (max-width: 600px) {
+  .maps {
+    display: table-row;
+  }
+
+  .map {
+    width: 100%;
+  }
+}
+
+@media (min-width: 600px) {
+  .map {
+    width: 60%;
+  }
+}

@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import {AppService} from "../../ApiCoreService.service";
 import {User} from "../Models/UserModel";
 
-
 @Component({
   selector: 'app-loginview',
   templateUrl: './loginview.component.html',

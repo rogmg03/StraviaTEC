@@ -7,13 +7,16 @@
   <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Dashboard <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#">Muro <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Notificaciones</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Perfil</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/contactenos" href="#">Contactenos</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
@@ -32,19 +35,21 @@
   </div>
 </nav>
 
+
 <div class="nav-scroller bg-white shadow-sm">
   <nav class="nav nav-underline">
-    <a class="nav-link active" href="#">Dashboard</a>
-    <a class="nav-link" href="#">
+    <a class="nav-link active" routerLink="/home" href="#">Muro</a>
+    <a class="nav-link" routerLink="/amigos" href="#">
       Amigos
       <span class="badge badge-pill bg-light align-text-bottom">27</span>
     </a>
-    <a class="nav-link" href="#">Carreras</a>
+    <a class="nav-link" routerLink="/carreras" href="#">Carreras</a>
     <a class="nav-link" href="#">Retos</a>
     <a class="nav-link" href="#">Grupos</a>
     <a class="nav-link" href="#">Inscripciones</a>
   </nav>
 </div>
+
 <main role="main" class="container">
   <div class="d-flex align-items-center p-3 my-3 text-white-50 rounded shadow-sm"
        style="background-color: rgb(249,87,0)">
