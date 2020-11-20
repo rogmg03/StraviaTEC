@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="108c83f5-3416-4aaa-9331-f3ac704bbb4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/StraviaTEC/src/app/Models/InscripdepretoModels.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StraviaTEC/src/app/Models/PatrocinadoresModels.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StraviaTEC/src/app/Models/PatrocinadoresporcarreraModels.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StraviaTEC/src/app/Models/PatrocinadoresporretosModels.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StraviaTEC/src/app/Models/GruposprivadosporretoModel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StraviaTEC/src/app/Models/InscripDepCarreraModel.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StraviaTEC/src/ApiCoreService.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/StraviaTEC/src/ApiCoreService.service.ts" afterDir="false" />
     </list>
