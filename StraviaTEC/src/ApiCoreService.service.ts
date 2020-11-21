@@ -11,6 +11,7 @@ import {inscarrera} from "./app/Models/InscripDepCarreraModel";
 import {gxr} from "./app/Models/GruposprivadosporretoModel";
 import {gxc} from "./app/Models/GruposprivadosporcarreraModel";
 import {amigo} from "./app/Models/AmigosModel";
+import {concatMap  } from "rxjs/operators";
 
 
 @Injectable({
@@ -48,7 +49,8 @@ public lista = [];
   getUsersbyname(nombre:string): Observable<User>{
 
     try{
-      return this.http.get<User>('/api/usuario/get/'+nombre);}
+      return this.http.get<any>('/api/usuario/get/'+nombre)
+        ;}
     catch(e){
       return e;
 

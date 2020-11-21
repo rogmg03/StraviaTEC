@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit, pipe, PipeTransform} from '@angular/core';
 import {amigo} from "../Models/AmigosModel";
 import {AppService} from "../../ApiCoreService.service";
 import {User} from "../Models/UserModel";
@@ -8,11 +8,22 @@ import {User} from "../Models/UserModel";
   templateUrl: './amigos.component.html',
   styleUrls: ['./amigos.component.css']
 })
-export class AmigosComponent{
+export class AmigosComponent {
+  public arrayOfKeys;
+  public listaamigos:object;
 
-  constructor(private webservices: AppService) { }
+
+  constructor(private webservices: AppService) {
+
+
+  }
+
+
+
 
   ngOnInit(): void {
+
+
   }
   public  nombre : string;
 
@@ -37,9 +48,11 @@ public lista:User = new class implements User {
 
   getamigos(nombre : string) {
     console.log('NOMBRE'+nombre);
-    this.webservices.getUsersbyname(nombre).subscribe(
+    this.webservices.getUsersbyname(nombre)
+
+      .subscribe(
       Response => {
-        this.lista =  Response;
+        this.lista= Response;
 
         console.log(Response);
       }
@@ -52,6 +65,7 @@ public lista:User = new class implements User {
     this.webservices.addamigos(amg).subscribe(
       Response => {
         this.amg =  Response;
+        this.arrayOfKeys=amg;
 
         console.log(Response);
       }
