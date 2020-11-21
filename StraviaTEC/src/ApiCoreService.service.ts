@@ -10,6 +10,7 @@ import {insreto} from "./app/Models/InscripdepretoModels";
 import {inscarrera} from "./app/Models/InscripDepCarreraModel";
 import {gxr} from "./app/Models/GruposprivadosporretoModel";
 import {gxc} from "./app/Models/GruposprivadosporcarreraModel";
+import {amigo} from "./app/Models/AmigosModel";
 
 
 @Injectable({
@@ -44,8 +45,7 @@ public lista = [];
 
   }
 
-
-  getUsersbyname(nombre): Observable<User>{
+  getUsersbyname(nombre:string): Observable<User>{
 
     try{
       return this.http.get<User>('/api/usuario/get/'+nombre);}
@@ -367,7 +367,17 @@ public lista = [];
     return this.http.delete<gxc>('/api/Gruposprivadosporcarrera'+'/del/'+id);
   }
 
+  addamigos(p:amigo): Observable<amigo>{
+    console.log('usuarios'+p);
+    // @ts-ignore
+    try {
 
+      return this.http.post<amigo>('/api/Amigos',p);}
+    catch (e){
+
+      console.log(e);
+    }
+  }
 
 }
 
