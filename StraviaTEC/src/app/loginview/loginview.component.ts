@@ -79,6 +79,11 @@ export class AppComponentlogin {
 
 
   }
+
+  get():number{
+    return this.usuariostring;
+
+  }
   // tslint:disable-next-line:typedef
   getUsers() {
     this.webservices.getUsers().subscribe(
